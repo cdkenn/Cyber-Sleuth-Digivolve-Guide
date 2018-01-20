@@ -24,7 +24,7 @@ namespace Digivolve_Tree
             AllDigivolutions = digivolutions;
         }
 
-        public List<string> getDigivolvesInto(string digimonName)
+        public List<string> GetDigivolvesInto(string digimonName)
         {
             List<string> toReturn = new List<string>();
             for (int i = 0; i < AllDigivolutions.Count; i++)
@@ -37,7 +37,7 @@ namespace Digivolve_Tree
             return toReturn;
         }
 
-        public List<string> getDigivolvesFrom(string digimonName)
+        public List<string> GetDigivolvesFrom(string digimonName)
         {
             List<string> toReturn = new List<string>();
             for (int i = 0; i < AllDigivolutions.Count; i++)
@@ -50,7 +50,7 @@ namespace Digivolve_Tree
             return toReturn;
         }
 
-        public Digimon getDigimonByName(string name)
+        public Digimon GetDigimonByName(string name)
         {
             for(int i = 0; i < AllDigimon.Count; i++)
             {
@@ -62,7 +62,7 @@ namespace Digivolve_Tree
             return null;
         }
 
-        public List<string> getAllDigimonNames()
+        public List<string> GetAllDigimonNames()
         {
             List<string> toReturn = new List<string>();
             for (int i = 0; i < AllDigimon.Count; i++)
@@ -83,6 +83,32 @@ namespace Digivolve_Tree
 
             writer.Serialize(file, this);
             file.Close();
+        }
+
+        public List<Digimon> GetDigimonContainingName(string name)
+        {
+            return (from t in AllDigimon where t.Name.ToLower().Contains(name.ToLower()) select (t)).ToList();
+        }
+
+        public List<Digimon> GetDigimonContainingNameByLevel(string name, string level)
+        {
+            return (from t in AllDigimon where t.Name.ToLower().Contains(name) && t.Level == level select (t)).ToList();
+        }
+
+        public List<Digimon> GetDigimonByLevel(string level)
+        {
+            return AllDigimon.Where(t => t.Level == level).ToList();
+        }
+
+        public List<string> GetAllLevels()
+        {
+            List<string> levels = new List<string>();
+
+            foreach (var digimon in AllDigimon)
+            {
+                if(!levels.Contains(digimon.Level)) levels.Add(digimon.Level);
+            }
+            return levels;
         }
     }
 }

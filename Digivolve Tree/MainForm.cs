@@ -8,12 +8,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Serialization;
 
 namespace Digivolve_Tree
 {
     public partial class MainForm : Form
     {
-        public Digidex dex = new Digidex(new List<Digimon>(), new List<Digivolution>());
+        public Digidex Dex = new Digidex(new List<Digimon>(), new List<Digivolution>());
+        private Digimon SelectedDigimon = null;
 
         public MainForm()
         {
@@ -23,19 +25,19 @@ namespace Digivolve_Tree
         private void MainForm_Load(object sender, EventArgs e)
         {
             ReadXml();
-            PopulateDigiSelectCombo();
+            PopulateStageCombo();
         }
 
-        private void PopulateDigiSelectCombo()
+        private void PopulateStageCombo()
         {
-            cmbDigiSelect.Items.Clear();
-            var names = dex.getAllDigimonNames();
-            foreach(string name in names)
+            cmbStage.Items.Clear();
+            cmbStage.Items.Add("N/A");
+            var levels = Dex.GetAllLevels();
+            foreach (var level in levels)
             {
-                cmbDigiSelect.Items.Add(name);
+                cmbStage.Items.Add(level);
             }
-            if (names.Count > 0)
-                cmbDigiSelect.SelectedIndex = 0;
+            cmbStage.SelectedIndex = 0;
         }
 
         private void ParseFile(string path)
@@ -95,7 +97,7 @@ namespace Digivolve_Tree
                         currDigimon.Name = name;
                         currDigimon.Level = currentDigiLevel;
 
-                        dex.AllDigimon.Add(currDigimon);
+                        Dex.AllDigimon.Add(currDigimon);
                         if (nameSplit.Length > 1)
                         {
                             //digimon can digivolve
@@ -104,30 +106,29 @@ namespace Digivolve_Tree
                             {
                                 string digivolvesTo = digi.Trim();
                                 Digivolution digivolution = new Digivolution(name, digivolvesTo);
-                                dex.AllDigivolutions.Add(digivolution);
+                                Dex.AllDigivolutions.Add(digivolution);
                             }
                         }
                     }
                     counter++;
                 }   //end file read while loop
             }
-            dex.WriteXML();
+            Dex.WriteXML();
         }
 
-        private void cmbDigiSelect_SelectedIndexChanged(object sender, EventArgs e)
+        private void FillDigimonDetails()
         {
-            string selectedName = cmbDigiSelect.Text;
-            var selecteDM = dex.getDigimonByName(selectedName);
-            
+            lblName.Text = SelectedDigimon.Name;
+
             //center details stuff
-            txtReqs.Text = "";
-            if (selecteDM.Requirements != null) txtReqs.Text = selecteDM.Requirements;
+            lblReqs.Text = "";
+            if (SelectedDigimon.Requirements != null) lblReqs.Text = SelectedDigimon.Requirements;
             lblLevel.Text = "Level: ";
-            if (selecteDM.Level != null) lblLevel.Text += selecteDM.Level;
+            if (SelectedDigimon.Level != null) lblLevel.Text += SelectedDigimon.Level;
 
 
-            var digivolvesIntoSelected = dex.getDigivolvesInto(selectedName);
-            var digivolvesFromSelected = dex.getDigivolvesFrom(selectedName);
+            var digivolvesIntoSelected = Dex.GetDigivolvesInto(SelectedDigimon.Name);
+            var digivolvesFromSelected = Dex.GetDigivolvesFrom(SelectedDigimon.Name);
 
             //Table stuff
             tblDigivolvesFrom.Rows.Clear();
@@ -139,13 +140,16 @@ namespace Digivolve_Tree
             }
             foreach (var name in digivolvesFromSelected)
             {
-                //left table
-                tblDigivolvesTo.Rows.Add(name);
+                //right table
+                var d = Dex.GetDigimonByName(name);
+                tblDigivolvesTo.Rows.Add(name, d?.Requirements);
             }
 
             tblDigivolvesFrom.ClearSelection();
             tblDigivolvesTo.ClearSelection();
         }
+
+       
 
         private void tblDigivolvesTo_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -153,7 +157,7 @@ namespace Digivolve_Tree
             if (row < 0) return;
 
             string name = tblDigivolvesTo.Rows[row].Cells[0].Value.ToString();
-            cmbDigiSelect.Text = name;
+            txtSearch.Text = name;
         }
 
         private void tblDigivolvesFrom_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -162,15 +166,79 @@ namespace Digivolve_Tree
             if (row < 0) return;
 
             string name = tblDigivolvesFrom.Rows[row].Cells[0].Value.ToString();
-            cmbDigiSelect.Text = name;
+            txtSearch.Text = name;
         }
 
         private void ReadXml()
         {
             System.Xml.Serialization.XmlSerializer reader = new System.Xml.Serialization.XmlSerializer(typeof(Digidex));
             StreamReader file = new StreamReader("digimon.xml");
-            dex = (Digidex)reader.Deserialize(file);
+            Dex = (Digidex)reader.Deserialize(file);
             file.Close();
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            Search();
+        }
+
+        private void Search()
+        {
+            string name = txtSearch.Text.Trim();
+            List<Digimon> searchList = new List<Digimon>();
+
+            if (cmbStage.SelectedIndex == 0)
+            {
+                //just search by name
+                searchList = Dex.GetDigimonContainingName(name);
+            }
+            else
+            {
+                //search by name and stage
+                string level = cmbStage.Text;
+                searchList = Dex.GetDigimonContainingNameByLevel(name, level);
+            }
+
+            PopulateSearchTable(searchList);
+        }
+
+        private void PopulateSearchTable(List<Digimon> digimonList)
+        {
+            tblDigimon.Rows.Clear();
+            foreach (var digimon in digimonList)
+            {
+                tblDigimon.Rows.Add(digimon.Name);
+            }
+            if (tblDigimon.RowCount > 0)
+                tblDigimon[0, 0].Selected = true;
+        }
+
+        private void cmbStage_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Search();
+        }
+
+        private void tblDigimon_Select()
+        {
+            if (tblDigimon.SelectedCells.Count == 0) return;
+            int rowIndex = tblDigimon.SelectedCells[0].RowIndex;
+            int colIndex = tblDigimon.SelectedCells[0].ColumnIndex;
+            if (rowIndex < 0) return;
+
+            string name = tblDigimon[colIndex, rowIndex].Value.ToString();
+
+            SelectedDigimon = Dex.GetDigimonByName(name);
+            FillDigimonDetails();
+        }
+
+        private void tblDigimon_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            tblDigimon_Select();
+        }
+
+        private void tblDigimon_SelectionChanged(object sender, EventArgs e)
+        {
+            tblDigimon_Select();
         }
     }
 }
