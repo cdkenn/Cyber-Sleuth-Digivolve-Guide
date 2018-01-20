@@ -1,0 +1,484 @@
+Level: Baby
+Pabumon: Motimon, Tanemon, Yokomon
+Punimon: Nyaromon, Tsunomon
+Poyomon: Bukamon, Tokomon
+Botamon: Wanyamon
+
+Level: In-Training
+Koromon: Agumon, Guilmon, ToyAgumon, Hackmon
+Tsunomon: Gabumon, Gabumon (Blk), Goblimon, Veemon
+Tanemon: Palmon, Lalamon, Renamon
+(Level 5)
+Tsumemon: Agumon (Blk), Keramon, DemiDevimon
+(Level 5)
+Tokomon: Patamon, Falcomon, Hawkmon, Lucemon (child)
+(Level 5)
+Nyaromon: Armadillomon, Terriermon, Salamon
+(Level 3, INT is 10)
+Pagumon: Impmon, Gazimon, Lopmon
+Yokomon: Elecmon, Biyomon, Wormmon
+(Level 3, MAX HP is 50) 
+Bukamon: Otamamon, Gomamon, Syakomon, Betamon
+(Level 3, INT is 15)
+Motimon: Gotsumon, Tentomon, Hagurumon, Solarmon
+(Level 3, DEF is 15)
+Wanyamon: Gaomon, Kudamon, Dorumon
+ 
+Level: Rookie
+Agumon: Greymon, GeoGreymon, Meramon, Tyrannomon, Sukamon
+(Level 9, ATK 30, CAM 10)
+Agumon (Blk): Growlmon, Cyclomon, Tankmon, Tyrannomon, Black Greymon
+(Level 8, ATK 30 - DLC required)
+Armadillomon: Ankylomon, Cyclomon, GoldNumemon, Tankmon, Geremon
+(Level 7, HP 75, DEF 20, CAM 10)
+Impmon: Bakemon, Ogremon, Socerimon, BlackGatomon, Wizardmon, IceDevimon
+(Level 7, SP 20, INT 30)
+Elecmon: Garurumon, Leomon, Nanimon, Sukamon, Black Garurumon, Geremon
+(Level 7, HP 75, SP 20, SPD 20)
+Otamamon: Gekomon, Numemon, Seadramon, ShellNumemon
+(Level 7, INT 20)
+Gaomon: Gargomon, Gaogamon, Leomon, Togemon, Ogremon
+(Level 9, ATK 20, SPD 20, CAM 10)
+Gazimon: Dorugamon, Gaogamon, Leomon, Kurisarimon, Nanimon, Black Garurumon
+(Level 9, ATK 15, SPD 20)
+Gabumon: Dorugamon, Garurumon, Numemon, Veedramon, Frigimon
+(Level 7, HP 75, ATK 20, SPD 20)
+Gabumon (Blk): Black Garurumon, Vegimon, Reppamon, Frigimon
+(Level 6, HP 80, ATK 30 - DLC required)
+Guilmon: GeoGreymon, Growlmon, Meramon, Tyrannomon, Black Greymon
+(Level 7, ATK 30, SPD 20)
+Kudamon: Angemon, GoldNumemon, Peckmon, Reppamon
+(Level 8, SP 20, INT 20)
+Keramon: Bakemon, Kurisarimon, PlatinumSukamon, Wizardmon
+(Level 9, ATK 20, SPD 20)
+Gotsumon: Ankylomon, Clockmon, Starmon, Tankmon
+(Level 8, DEF 30)
+Goblimon: Gaogamon, Growlmon, Nanimon, Ogremon, Black Greymon
+(Level 7, ATK 40)
+Gomamon: Ankylomon, Ikkakumon, Socerimon, Frigimon
+(Level 8, HP 100, CAM 10)
+Syakomon: Ikkakumon, ShellNumemon, Gekomon, Seadramon
+(Level 7, DEF 15, INT 20)
+Solarmon: Clockmon, Geremon, Starmon, Meramon
+(Level 6, HP 75, DEF 20)
+Terriermon: Gargomon, Ikkakumon, Gatomon, Rapidmon (Armor)
+(Level 8, SPD 30, CAM 10)
+Tentomon: Kabuterimon, Waspmon, Kuwagamon, Stingmon, Sunflowmon
+(Level 9, DEF 20, CAM 10)
+ToyAgumon: Clockmon, Greymon, Guardromon, Sukamon, Starmon
+(Level 8, HP 75, DEF 20)
+Dorumon: Cyclomon, Dorugamon, Guardromon, Waspmon
+(Level 8, 20 ATK, SPD 30)
+Hagurumon: Clockmon, GoldNumemon, Guardromon, Starmon, PlatinumSukamon
+(Level 7, HP 75, DEF 30)
+Patamon: Angemon, Birdramon, Reppamon, Gatomon, ExVeemon
+(Level 7, INT 20, SPD 20, CAM 10)
+Hackmon: Jesmon (yes, he warps straight to Jesmon, this is only unlocked lategame), Greymon, GeoGreymon, PlatinumSukamon
+(Level 9, ATK 20, ABI 20)
+Palmon: Kuwagamon, Togemon, Vegimon, Sunflowmon, Woodmon
+(Level 8, HP 100, CAM 10)
+DemiDevimon: Bakemon, Devimon, Kyubimon, Kurisarimon, IceDevimon
+(Level 8, SPD 30)
+Biyomon: Kabuterimon, Aquilamon, Birdramon, Kyubimon
+(Level 8, INT 20, SPD 20, CAM 10)
+Falcomon: Stingmon, ExVeemon, Aquilamon, Peckmon
+(Level 9, SPD 30)
+Veemon: Flamedramon, Magnamon, Veedramon, ExVeemon
+(Level 6, ATK 20, SPD 20)
+Salamon: Frigimon, Reppamon, Gatomon, Veedramon, Socerimon
+(Level 7, SP 20, INT 20, CAM 10)
+Betamon: Gekomon, Numemon, Seadramon, ShellNumemon, Vegimon
+(Level 8, INT 40)
+Hawkmon: Meramon, Aquilamon, Birdramon, Peckmon
+(Level 7, SPD 30, CAM 10)
+Lalamon: Sunflowmon, Togemon, Vegimon, Woodmon
+(Level 9, HP 75, SPD 30, CAM 10)
+Lucemon: Angemon, Devimon, Lucemon FM
+(Level 30, SP 80, INT 130, ABI 80)
+Renamon: BlackGatomon, Garurumon, Kyubimon, Woodmon
+(Level 7, ATK 20, INT 20, SPD 20)
+Lopmon: Gargomon, Devimon, BlackGatomon, Wizardmon
+(Level 8, ATK 15, INT 20)
+Wormmon: Waspmon, Kabuterimon, Kuwagamon, Stingmon, IceDevimon
+(Level 8, DEF 20, CAM 10)
+ 
+Level: Champion
+IceDevimon: Myotismon, Cherrymon, LadyDevimon
+(Level 15, ATK 40, INT 40)
+Aquilamon: AeroVeedramon, Garudamon, Silphymon, Crowmon
+(Level 14, SPD 55)
+Ankylomon: MagnaAngemon, Meteormon, Shakkoumon, SkullGreymon
+(Level 15, HP 150, DEF 40)
+Ikkakumon: MachGaogamon, Whamon, Zudomon
+(Level 15, HP 300, CAM 25)
+Wizardmon: SkullMeramon, Myotismon, Wisemon
+(Level 14, SP 35, INT 55)
+Woodmon: Cherrymon, Pumpkinmon, Taomon
+(Level 14, HP 500)
+ExVeemon: MagnaAngemon, Paildramon, RizeGreymon
+(Level 14, ATK 40, SPD 40, CAM 25)
+Angemon: Garudamon, MagnaAngemon, Shakkoumon
+(Level 16, INT 40)
+Ogremon: SkullMeramon, Digitamamon, WereGarurumon
+(Level 14, ATK 55)
+Guardromon: Andromon, GrapLeomon, MetalMamemon, Datamon
+(Level 14, DEF 55)
+Gaogamon: GrapLeomon, MachGaogamon, WereGarurumon
+(Level 15, SPD 55)
+Kabuterimon: MegaKabuterimon, Cherrymon, Lilamon
+(Level 14, DEF 40, INT 40)
+ShellNumemon: BlackKingNumemon, MegaSeadramon, ShogunGekomon
+(Level 14, HP 150, DEF 55)
+Gargomon: WarGrowlmon, Antylamon, Rapidmon
+(Level 15, HP 150, SPD 40)
+Garurumon: DoruGreymon, Panjyamon, WereGarurumon, Zudomon
+(Level 15, SPD 50, CAM 25)
+BlackGarurumon: WereGarurumon (Blk), BlueMeramon, MachGaogamon
+(Level 15, ATK 35, SPD 50)
+Kyubimon: LadyDevimon, Monzaemon, Taomon
+(Level 14, SP 40, INT 40, SPD 40)
+Growlmon: Gigadramon, WarGrowlmon, MetalGreymon, MetalTyrannomon
+(Level 15, ATK 50, SPD 20)
+Kurisarimon: Cyberdramon, Infermon, Taomon
+(Level 16, HP 150, ATK 40)
+Greymon: MetalGreymon, MetalGreymon (Blue), Megadramon, SkullGreymon
+(Level 16, ATK 55, CAM 50)
+Greymon (Blue): MetalGreymon (Blue), Knightmon, DoruGreymon
+(Level 16, HP 150, ATK 50)
+Clockmon: Andromon, Knightmon, Datamon, Wisemon
+(Level 14, INT 35)
+Kuwagamon: Cherrymon, Okuwamon, CannonBeemon
+(Level 14, ATK 55)
+Gekomon: MegaSeadramon, ShogunGekomon, Whamon
+(Level 14, SP 40, INT 40)
+Geremon: Etemon, SuperStarmon, MetalMamemon
+(Level 12, HP 130, SP 25, DEF 40)
+GoldNumemon: Vademon, PlatinumNumemon, BlackKingNumemon
+(Level 18, ABI 5)
+Cyclomon: Megadramon, DoruGreymon, Datamon
+(Level 14, ATK 30, DEF 30)
+Sunflowmon: Angewomon, Lilamon, Lilymon
+(Level 14, HP 150, INT 40)
+Seadramon: ShogunGekomon, MegaSeadramon, Whamon
+(Level 14, DEF 30, INT 40)
+GeoGreymon: Gigadramon, RizeGreymon, SkullGreymon
+(Level 15, HP 150, ATK 50)
+Sukamon: SuperStarmon, Etemon, Vademon
+(Level 12, HP 150, DEF 40)
+Starmon: Mamemon, MetalMamemon, SuperStarmon
+(Level 14, HP 150, DEF 35)
+Stingmon: Infermon, Paildramon, Okuwamon
+(Level 14, ATK 40, SPD 55)
+Socerimon: Antylamon, Piximon, Wisemon
+(Level 16, SP 40, INT 40)
+Tankmon: Andromon, Gigadramon, CannonBeemon, Knightmon
+(Level 14, DEF 55)
+Tyrannomon: Mamemon, Megadramon, MetalGreymon (Blue), MetalTyrannomon
+(Level 14, HP 150, ATK 40)
+Gatomon: Angewomon, Lilymon, Silphymon
+(Level 16, INT 40, CAM 25)
+Devimon: BlueMeramon, Infermon, MetalGreymon (Blue), Myotismon
+(Level 16, ATK 40, ABI 5)
+Togemon: MachGaogamon, Lilymon, Pumpkinmon
+(Level 16, HP 300, DEF 30, CAM 25)
+Dorugamon: RizeGreymon, DoruGreymon, Chirinmon
+(Level 14, ATK 40, SPD 40)
+Nanimon: Digitamamon, SuperStarmon, Meteormon
+(Level 12, ATK 40, DEF 40)
+Numemon: BlackKingNumemon, Etemon, Monzaemon
+(Level 12, HP 150, DEF 40)
+Birdramon: AeroVeedramon, Garudumon, Chirinmon, Crowmon
+(Level 14, SP 40, SPD 40)
+Bakemon: BlueMeramon, Pumpkinmon, Myotismon, LadyDevimon
+(Level 13, SP 40, INT 30)
+PlatinumSukamon: Etemon, MetalMamemon, Vademon
+(Level 20)
+BlackGatomon: Cyberdramon, Knightmon, LadyDevimon, WereGarurumon (Blk)
+(Level 16, INT 40, CAM 25)
+Vegimon: Digitamamon, Lilamon, MegaKabuterimon
+(Level 12, HP 300)
+Peckmon: Antylamon, Piximon, Yatagarmon
+(Level 14, SPD 50)
+Meramon: BlueMeramon, SkullMeramon, Mamemon, Panjymaon
+(Level 14, ATK 40)
+Frigimon: Zudomon, Angewomon, Monzaemon
+(Level 11, HP 250, ATK 30)
+Leomon: GrapLeomon, MetalGreymon, Meteormon, Panjyamon
+(Level 16, ATK 55)
+Reppamon: Rapidmon, Piximon, Chirinmon
+(Level 16, SPD 40, ABI 5)
+Waspmon: CannonBeemon, Rapidmon, MegaKabuterimon, Okuwamon
+(Level 14, ATK 40, SPD 40)
+ 
+Level: Ultimate
+MegaKabuterimon: GranKuwagamon, Magnadramon, HerculesKabuterimon
+(Level 28, HP 400, DEF 95)
+Antylamon: Kerpymon (Good), Diaboromon, Dianamon
+(Level 28, ATK 65, INT 75, SPD 85)
+Andromon: Craniamon, HiAndramon, TigerVespamon
+(Level 28, ATK 75, DEF 75, INT 75)
+Meteormon: Ebemon, MetalEtemon, Dianamon
+(Level 26, DEF 110)
+Infermon: Beelzemon, Diaboromon, VenomMyotismon
+(Level 30, ATK 95, SPD 80)
+Myotismon: Barbamon, Piedmon, VenomMyotismon
+(Level 30, ATK 70, INT 90, ABI 10)
+AeroVeedramon: Ravemon, Dynasmon, UlforceVeedramon
+(Level 30, ATK 75, SPD 95, CAM 25)
+Etemon: MetalEtemon, Piedmon, PlatinumNumemon
+(Level 26, SP 75, DEF 75, SPD 65)
+Angewomon: Magnadramon, Ophanimon, Mastemon
+(Level 30, SP 75, INT 100, ABI 10)
+Okuwamon: Diaboromon, GranKuwagamon, HerculesKabuterimon
+(Level 26, ATK 95, DEF 90)
+Garudamon: Hououmon, Justimon, Ravemon
+(Level 30, ATK 75, SPD 75)
+Gigadramon: MetalSeadramon, Machinedramon, GrandLocomon
+(Level 26, HP 800, ATK 75, DEF 95)
+CannonBeemon: MegaGargomon, GrandLocomon, TigerVespamon
+(Level 28, DEF 75, SPD 75)
+GrapLeomon: BanchoLeomon, Duftmon, SaberLeomon
+(Level 26, HP 400, ATK 95)
+Cyberdramon: Justimon, Titamon, Alphamon
+(Level 28, HP 040, ATK 75, SPD 75)
+Shakkoumon: Kerpymon (Good), Vikemon, ChaosGallantmon
+(Level 30, DEF 75, INT 65, CAM 100)
+Cherrymon: GranKuwagamon, Kuzuhamon, Puppetmon
+(Level 28, HP 800, DEF 70)
+Silphymon: Dynasmon, Hououmon, Sakuyamon
+(Level 30, ATK 60, INT 75, SPD 75, CAM 100)
+SuperStarmon: Justimon, Gankoomon, PlatinumNumemon
+(Level 28, SP 70, ATK 70, DEF 80)
+SkullGreymon: Daemon, ShineGreymon, Titamon
+(Level 28, ATK 120, DEF 85, SPD 70)
+Zudomon: MetalGarurumon, MarineAngemon, Vikemon
+(Level 30, Hp 800, ATK 75)
+Taomon: Dianamon, Kuzuhamon, Sakuyamon
+(Level 30, SP 60, INT 75, SPD 60)
+Chirinmon: MetalGarurumon, Seraphimon, Sleipmon
+(Level 30, SP 75, SPD 100, ABI 10)
+Digitamamon: Minervamon, Belphemon Sleep Mode, Titamon
+(Level 30, HP 700, DEF 75)
+SkullMeramon: Gankoomon, Beelzemon, Boltmon
+(Level 28, HP 500, ATK 95)
+ShogunGekomon: Plesiomon, Leviamon, Vikemon
+(Level 26, HP 900)
+DoruGreymon: Alphamon, Examon, Sleipmon
+(Level 39, HP 400, ATK 95, DEF 75)
+Knightmon: Craniamon, Duftmon, LordKnightmon
+(Level 30, ATK 75, DEF 75)
+Datamon: Machinedramon, GrandLocomon
+(Level 28, SP 60, INT 85)
+Paildramon: Imperialdramon Dragon Mode
+(Level 30, ATK 90, DEF 60, SPD 75, CAM 100)
+Panjyamon: Boltmon, SaberLeomon, MirageGaogamon
+(Level 28, HP 350, ATK 75, SPD 75)
+Pumpkinmon: Boltmon, Puppetmon, Rosemon
+(Level 26, HP 850, ATK 60, INT 60)
+Piximon: Hououmon, MarineAngemon, Ophanimon
+(Level 26, SP 75, INT 80, SPD 80)
+BlackKingNumemon: PlatinumNumemon, MetalEtemon, PrinceMamemon
+(Level 32)
+BlueMeramon: Barbamon, Boltmon, Daemon
+(Level 28, HP 400, ATK 80, INT 70)
+Vademon: Ebemon, HerculesKabuterimon, HiAndromon
+(Level 26, SP 85)
+Whamon: Plesiomon, MarineAngemon, MetalSeadramon
+(Level 28, HP 850, DEF 75, INT 75)
+MagnaAngemon: ShineGreymon, LordKnightmon, Seraphimon
+(Level 30, SP 80, INT 80, ABI 10)
+MachGaogamon: BanchoLeomon, MirageGaogamon, MegaGargomon
+(Level 26, ATK 75, SPD 80)
+Mamemon: Puppetmon, PrinceMamemon, WarGreymon
+(Level 26, ATK 75, DEF 80)
+MegaSeadramon: Leviamon, MetalSeadramon, Plesiomon
+(Level 30, HP 400, SP 70, INT 70)
+Megadramon: Machinedramon, UlforceVeedramon
+(Level 26, HP 400, ATK 95, SPD 75)
+WarGrowlmon: Gallantmon, ChaosGallantmon, RustTyrannomon
+(Level 30, ATK 105, SPD 75)
+MetalGreymon: RustTyrannomon, Gaiomon, WarGreymon
+(Level 30, HP 350, ATK 100, CAM 50)
+MetalGreymon (Blue): BlackWarGreymon, Gaiomon, WarGreymon, Kerpymon (Blk)
+(Level 30 HP 450, ATK 110 - DLC required)
+MetalTyrannomon: Gallantmon, RustTyrannomon
+(Level 28, ATK 75, DEF 95)
+MetalMamemon: Ebemon, HiAndramon, PrinceMamemon
+(Level 26, DEF 80, INT 65)
+Monzaemon: Minervamon, Sakuyamon, SaberLeomon
+(Level 26, HP 600, ATK 60)
+Crowmon: Minervamon, Ravemon, Kuzuhamon
+(Level 30, SP 75, SPD 90)
+RizeGreymon: Examon, Gaiomon, ShineGreymon
+(Level 30, HP 350, ATK 100, SPD 75, CAM 50)
+Lilamon: Lilithmon, Lotusmon, Rosemon
+(Level 30, SP 75)
+Rapidmon: MegaGargomon, TigerVespamon
+(Level 28, ATK 75, CAM 50)
+Lilymon: Magnadramon, Lotusmon, Rosemon
+(Level 30, INT 75, SPD 75, friendshup 50)
+Lucemon FM: Lucemon SM
+(Level  55, ATK 180, INT 240, SPD 180, ABI 80)
+LadyDevimon: Lilithmon, Lotusmon, Mastemon
+(Level 30, ATK 90, SPD 85, CAM 50)
+WereGarurumon: MetalGarurumon, MirageGaogamon
+(Level 28, ATK 90, SPD 85, CAM 50)
+WereGarurumon (Blk): MetalGarurumon (Blk), Minervamon, BanchoLeomon
+(Level 28, ATK 90, SPD 70)
+Wisemon: VenomMyotismon, Belphemon Sleep Mode, Piedmon
+(Level 28, PS 75, INT 100)
+ 
+Level: Mega
+Alphamon
+(Level 60, ATK 150, DEF 170, INT 135, ABI 40, clear challenge quest)
+UlforceVeedramon
+(Level 60, ATK 120, SPD 145, ABI 40, clear challenge quest)
+Ebemon
+(Level 45, SP 120, INT 120, ABI 20)
+Imperialdramon Dragon Mode
+(Level 55, HP 1600, DEF 150, SPD 150, ABI 20)
+Imperialdramon Fighter Mode
+(??? - he is in the game, but no requirements for him have been listed yet)
+Vikemon
+(Level 50, HP 1700, ATK 130, DEF 130, INT 120, ABI 20)
+VenomMyotismon
+(Level 55, HP 1200, SP 110, ATK 110, INT 110, ABI 40)
+WarGreymon: Omnimon
+(Level 55, ATK 160, DEF 130, ABI 20, CAM 80)
+Examon
+(Level 60, HP 1650, ATK 150, SPD 150, ABI 40)
+Ophanimon
+(Level 55, SP 120, DEF 120, INT 145, ABI 40)
+Gaiomon
+(Level 50, ATK 120, DEF 100, SPD 100, ABI 20)
+ChaosGallantmon
+(Level 60, ATK 130, DEF 130, INT 130, ABI 40)
+Gankoomon
+(Level 60, HP 1700, ATK 145, DEF 120, ABI 40)
+Kuzuhamon
+(Level 55, SP 120, INT 135, SPD 120, ABI 20)
+GranKuwagamon
+(Level 45, HP 1500, ATK 120, DEF 120, ABI 20)
+GrandLocomon
+(Level 50, DEF 160, SPD 120, ABI 20)
+Craniamon
+(Level 60, SP 110, DEF 180, INT 140, ABI 40)
+Kerpymon (Good)
+(Level 55, SP 120, INT 145, SPD 100, ABI 40)
+SaberLeomon
+(Level 50, ATK 145, SPD 120, ABI 20)
+Sakuyamon
+(Level 55, SP 120, INT 120, SPD 120, ABI 20)
+Jesmon
+(Level 60, ATK 130, SPD 120, ABI 80, CAM 80, clear challenge quest)
+ShineGreymon
+(Level 55, ATK 140, SPD 130, ABI 20, CAM 80)
+Justimon
+(Level 50, HP 1000, ATK 130, DEF 110, ABI 20, CAM 80)
+Sleipmon
+(Level 60, DEF 140, INT 120, SPD 150, ABI 40)
+Seraphimon
+(Level 55, SP 130, DEF 130, INT 150, ABI 40, CAM 50)
+MegaGargomon
+(Level 50, DEF 130, SPD 130, ABI 20)
+TigerVespamon
+(Level 50, HP 1000, ATK 120, SPD 130, ABI 20)
+Titamon
+(Level 55, HP 1400, ATK 150, INT 120, ABI 20)
+Dianamon
+(Level 55, DEF 120, INT 130, SPD 130, ABI 20, DLC required)
+Diaboromon
+(Level 55, HP 1100, ATK 180, SPD 130, ABI 20)
+Daemon
+(Level 60, HP 1600, ATK 230, INT 160, ABI 80)
+Gallantmon
+(Level 60, ATK 140, DEF 140, INT 140, ABI 40, CAM 50)
+Dynasmon
+(Level 60, HP 1200, ATK 140, DEF 120, SPD 130, ABI 40, clear challenge quest)
+Duftmon
+(Level 60, SP 100, INT 120, SPD 104, ABI 40)
+Duftmon Leopard Mode
+(???)
+HiAndromon
+(Level 55, ATK 100, DEF 130, INT 100, ABI 20)
+Barbamon
+(Level 60, SP 160, DEF 120, INT 200, ABI 80)
+BanchoLeomon
+(Level 55, ATK 120, DEF 130, ABI 20)
+Piedmon
+(Level 50, ATK 130, INT 160, SPD 110, ABI 20)
+Puppetmon
+(Level 50, ATK 130, DEF 130, INT 130, ABI 20)
+PlatinumNumemon
+(Level 65, ABI 10)
+BlackWarGreymon: Omnimon Zwart
+(Level 55, HP 1800, ATK 140, DEF 140, ABI 20, DLC required)
+PrinceMamemon
+(Level 45, DEF 150, ABI 20)
+Plesiomon
+(Level 50, SP 100, DEF 120, INT 145, ABI 20)
+HerculesKabuterimon
+(Level 50, HP 110, DEF 150, INT 120, ABI 20)
+Beelzemon
+(Level 60, HP 2000, ATK 250, SPD 150, ABI 80)
+Belphemon Sleep Mode: Belphemon Rage Mode
+(Level 60, HP 1700, SP 140, INT 180, ABI 80)
+Houomon
+(Level 50, INT 130, SPD 150, ABI 20)
+Magnadramon
+(Level 55, HP 900, SP 120, INT 145, ABI 20)
+Boltmon
+(Level 50, ATK 145, DEF 100, ABI 20)
+Mastemon
+(Level 60, SP 120, ATK 120, INT 120, ABI 80, CAM 100, reach story flag)
+MarineAngemon
+(Level 50, SP 110, INT 135, ABI 20, CAM 50)
+Minervamon
+(Level 55, ATK 150, SPD 140, ABI 20)
+MirageGaogamon
+(Level 55, ATK 120, SPD 130, ABI 20)
+Machinedramon
+(Level 50, HP 1300, ATK 130, DEF 130, ABI 20)
+MetalEtemon
+(Level 45, SP 100, ATK 120, DEF 140, ABI 20)
+MetalGarurumon: Omnimon
+(Level 55, ATK 130, DEF 120, SPD 150, ABI 20, CAM 80)
+MetalGarurumon (Blk): Omnimon Zwart
+(Level 55, DEF 135, SPD 125, ABI 20, DLC required)
+MetalSeadramon
+(Level 50, SP 120, DEF 120, INT 120, ABI 20)
+RustTyrannomon
+(Level 55, HP 1300, ATK 180, DEF 150, ABI 20)
+Leviamon
+(Level 60, HP 2000, SP 140, ATK 140, DEF 140, INT 140, ABI 80)
+Lilithmon
+(Level 60, SP 200, INT 250, SPD 130, ABI 80)
+Ravemon
+(Level 55, ATK 130, SPD 160, ABI 20)
+LordKnightmon
+(Level 60, ATK 120, INT 135, SPD 150, ABI 40, CAM 50, clear challenge quest)
+Rosemon
+(Level 55, SP 120, INT 120, ABI 20)
+Lotusmon
+(Level 55, INT 170, SPD 130, ABI 20)
+ 
+Level: Armor
+Armor
+Flamedramon
+(Level 14, ATK 40, SPD 40, CAM 25, obtain digiegg from quest)
+Magnamon
+(Level 60, ATK 120, DEF 145, ABI 40, CAM 50, obtain digiegg from quest)
+Rapidmon Armor
+(Level 50, ATK 100, DEF 120, INT 120, ABI 20, CAM 50, obtain digiegg from quest)
+ 
+Level: Beyond Mega
+Imperialdramon Paladin Mode
+(Level 70, ATK 160, INT 160, SPD 160, ABI 100, clear challenge quest and get Omega Blade)
+Omnimon
+(Level 60, ATK 200, INT 150, SPD 150, ABI 40, CAM 100, clear challenge request and get item)
+Omnimon Zwart
+(Level 60, HP 1500, ATK 150, DEF 200, ABI 40, CAM 100, DLC required, clear challenge quest)
+Belphemon Rage Mode
+(??? Requirements unlisted)
+Lucemon SM
+(Level 70, HP 1400, SP 160, ATK 130, INT 250, SPD 170, ABI 100)
